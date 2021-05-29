@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/customborder"
+    tools:context=".RepartidorActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/ordenCompletada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="completada"
+            android:layout_weight="1"
+            android:textFontWeight="900"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/OrdenRepartidor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sas"
+            android:layout_weight="2"
+            android:textAlignment="textEnd"
+            android:textFontWeight="900"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/ordenConoMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text=""
+            android:layout_weight="1"
+            android:textFontWeight="900"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ordenConoCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="2"
+            android:textAlignment="textEnd"
+            android:textFontWeight="900"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/ordenVasoMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text=""
+            android:layout_weight="1"
+            android:textFontWeight="900"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ordenVasoCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:layout_weight="2"
+            android:textFontWeight="900"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/ordenPoteMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textFontWeight="900"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ordenPoteCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="2"
+            android:textAlignment="textEnd"
+            android:textFontWeight="900"
+            android:textSize="15dp"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
